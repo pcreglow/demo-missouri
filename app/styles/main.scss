@@ -16,16 +16,19 @@ $icon-font-path: '../fonts/';
 }
 
 .header {
-  background-color: #f7db6e;
+  background-color: #ffb500;
   margin: 0;
   width: 100%;
 
   .logo {
     float: left;
     width: 40%;
-    padding: 0 5%;
   }
 
+  .logo img {
+    width: 80%;
+    padding: 2% 10%;
+  }
   .nav {
     width: 60%;
     float: left;
@@ -43,7 +46,7 @@ $icon-font-path: '../fonts/';
     text-decoration: none;
     display: inline-block;
     width: 20%;
-    padding: 0 2.5%;
+    padding: 5% 2.5%;
     color: #fff;
   }
 
