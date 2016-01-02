@@ -3,3 +3,13 @@ $icon-font-path: '../fonts/';
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f7db6e;
+  margin: 0;
+}
