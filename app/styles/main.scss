@@ -9,7 +9,42 @@ $icon-font-path: '../fonts/';
   padding: 0;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .header {
   background-color: #f7db6e;
   margin: 0;
+  width: 100%;
+
+  .logo {
+    float: left;
+    width: 40%;
+    padding: 0 5%;
+  }
+
+  .nav {
+    width: 60%;
+    float: left;
+  }
+
+  .nav ul {
+    width: 100%;
+  }
+
+  .nav li {
+    list-style: none;
+  }
+
+  .nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    padding: 0 2.5%;
+    color: #fff;
+  }
+
 }
