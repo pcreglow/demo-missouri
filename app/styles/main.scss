@@ -22,15 +22,15 @@ $icon-font-path: '../fonts/';
 
   .logo {
     float: left;
-    width: 40%;
+    width: 30%;
   }
 
   .logo img {
-    width: 80%;
-    padding: 2% 10%;
+    width: 100%;
+    padding: 5% 10%;
   }
   .nav {
-    width: 60%;
+    width: 70%;
     float: left;
   }
 
@@ -46,8 +46,8 @@ $icon-font-path: '../fonts/';
   .nav a {
     text-decoration: none;
     display: inline-block;
-    width: 20%;
-    padding: 5% 2.5%;
+    width: 22%;
+    padding: 5% 1.5%;
     color: #fff;
     font-size: 18px;
     text-align: center;
