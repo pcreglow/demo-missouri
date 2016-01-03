@@ -36,6 +36,7 @@ $icon-font-path: '../fonts/';
 
   .nav ul {
     width: 100%;
+    margin: 0;
   }
 
   .nav li {
@@ -48,6 +49,8 @@ $icon-font-path: '../fonts/';
     width: 20%;
     padding: 5% 2.5%;
     color: #fff;
+    font-size: 18px;
+    text-align: center;
   }
 
 }
