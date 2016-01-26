@@ -106,7 +106,7 @@ $icon-font-path: '../fonts/';
   .sign-up-box {
     width: 50%;
     position: relative;
-    margin-top: 45%;
+    margin-top: 30%;
     margin-bottom: 5%;
     background-color: #fff;
     opacity: 0.85;
@@ -121,6 +121,7 @@ $icon-font-path: '../fonts/';
   }
 
   .subscribe {
-    margin: 2.5% 1%;
+    float: left;
+    margin: 0 1%;
   }
 }
