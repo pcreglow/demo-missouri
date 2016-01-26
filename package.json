@@ -45,7 +45,7 @@
   },
   "name": "demo-missouri",
   "description": "Demo - Missourians For Fair Taxation",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "gulpfile.babel.js",
   "directories": {
     "test": "test"
