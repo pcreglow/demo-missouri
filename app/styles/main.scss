@@ -15,20 +15,21 @@ $icon-font-path: '../fonts/';
 /* Navigation */
 
 .header {
-  background-color: #ffb500;
+  background-color: #0d223f;
   margin: 0;
   width: 100%;
   .logo {
     float: left;
-    width: 30%;
+    width: 100%;
   }
   .logo img {
     width: 100%;
-    padding: 5% 10%;
+    padding: 2% 10%;
   }
   .nav {
-    width: 70%;
+    width: 100%;
     float: left;
+    background-color: #ffd000;
   }
   .nav ul {
     width: 100%;
@@ -36,15 +37,21 @@ $icon-font-path: '../fonts/';
   }
   .nav li {
     list-style: none;
-  }
-  .nav a {
     text-decoration: none;
     display: inline-block;
-    width: 22%;
-    padding: 5% 1.5%;
-    color: #fff;
+    width: 19%;
+    padding: 1% 0;
+    color: #0d223f;
     font-size: 18px;
     text-align: center;
+  }
+  .nav a {
+    color: #0d223f;
+  }
+
+  .nav .social-media {
+    width: 15%;
+    height: 15%;
   }
   @media screen and (max-width: 1012px) {
     .nav a {
