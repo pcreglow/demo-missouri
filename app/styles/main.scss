@@ -54,7 +54,7 @@ $icon-font-path: '../fonts/';
     height: 15%;
   }
   @media screen and (max-width: 1012px) {
-    .nav a {
+    .nav li {
       font-size: 16px;
     }
   }
@@ -69,7 +69,7 @@ $icon-font-path: '../fonts/';
       width: 100%;
       height: auto;
       margin: 0 auto;
-      padding: 2% 20% 0;
+      padding: 1% 2%;
     }
 
     .nav {
@@ -77,19 +77,19 @@ $icon-font-path: '../fonts/';
       float: left;
     }
 
-    .nav a {
+    .nav li {
       font-size: 18px;
     }
   }
 
   @media screen and (max-width: 708px) {
-    .nav a {
+    .nav li {
       font-size: 16px;
     }
   }
 
   @media screen and (max-width: 635px) {
-    .nav a {
+    .nav li {
       font-size: 20px;
       display: block;
       width: 100%;
