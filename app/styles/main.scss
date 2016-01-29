@@ -50,11 +50,11 @@ $icon-font-path: '../fonts/';
   }
 
   .nav .social-media {
-    width: 15%;
-    height: 15%;
+    width: 18%;
+    height: 18%;
   }
   @media screen and (max-width: 1012px) {
-    .nav a {
+    .nav li {
       font-size: 16px;
     }
   }
@@ -69,7 +69,7 @@ $icon-font-path: '../fonts/';
       width: 100%;
       height: auto;
       margin: 0 auto;
-      padding: 2% 20% 0;
+      padding: 2%;
     }
 
     .nav {
@@ -77,24 +77,39 @@ $icon-font-path: '../fonts/';
       float: left;
     }
 
-    .nav a {
+    .nav li {
       font-size: 18px;
+      padding: 2% 0;
+    }
+
+    .nav .social-media {
+      width: 22%;
+      height: 22%;
     }
   }
 
   @media screen and (max-width: 708px) {
-    .nav a {
+    .nav li {
       font-size: 16px;
     }
   }
 
   @media screen and (max-width: 635px) {
-    .nav a {
+
+    .nav {
+      padding-top: 2%;
+    }
+
+    .nav li {
       font-size: 20px;
       display: block;
-      width: 100%;
+      width: 50%;
+      float: left;
       text-align: center;
-      padding: 2%;
+    }
+
+    .nav .social-media {
+      display: none;
     }
   }
 }
