@@ -37,6 +37,13 @@ $icon-font-path: '../fonts/';
   }
   .nav li {
     list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19%;
+    padding: 1% 0;
+    color: #0d223f;
+    font-size: 18px;
+    text-align: center;
   }
   .nav a {
     text-decoration: none;
