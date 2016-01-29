@@ -92,7 +92,8 @@ $icon-font-path: '../fonts/';
     .nav li {
       font-size: 20px;
       display: block;
-      width: 100%;
+      width: 50%;
+      float: left;
       text-align: center;
       padding: 2%;
     }
