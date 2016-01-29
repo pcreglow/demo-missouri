@@ -46,13 +46,7 @@ $icon-font-path: '../fonts/';
     text-align: center;
   }
   .nav a {
-    text-decoration: none;
-    display: inline-block;
-    width: 20%;
-    padding: 2%;
     color: #0d223f;
-    font-size: 18px;
-    text-align: center;
   }
   @media screen and (max-width: 1012px) {
     .nav a {
