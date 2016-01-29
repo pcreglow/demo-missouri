@@ -15,20 +15,21 @@ $icon-font-path: '../fonts/';
 /* Navigation */
 
 .header {
-  background-color: #ffb500;
+  background-color: #0d223f;
   margin: 0;
   width: 100%;
   .logo {
     float: left;
-    width: 30%;
+    width: 100%;
   }
   .logo img {
     width: 100%;
     padding: 5% 10%;
   }
   .nav {
-    width: 70%;
+    width: 100%;
     float: left;
+    background-color: yellow;
   }
   .nav ul {
     width: 100%;
@@ -40,9 +41,9 @@ $icon-font-path: '../fonts/';
   .nav a {
     text-decoration: none;
     display: inline-block;
-    width: 22%;
+    width: 20%;
     padding: 5% 1.5%;
-    color: #fff;
+    color: #0d223f;
     font-size: 18px;
     text-align: center;
   }
