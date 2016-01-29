@@ -80,6 +80,11 @@ $icon-font-path: '../fonts/';
     .nav li {
       font-size: 18px;
     }
+
+    .nav .social-media {
+      width: 20%;
+      height: 20%;
+    }
   }
 
   @media screen and (max-width: 708px) {
@@ -89,13 +94,22 @@ $icon-font-path: '../fonts/';
   }
 
   @media screen and (max-width: 635px) {
+
+    .nav {
+      padding-top: 2%;
+    }
+
     .nav li {
       font-size: 20px;
       display: block;
       width: 50%;
       float: left;
       text-align: center;
-      padding: 2%;
+      padding: 2% 0;
+    }
+
+    .nav .social-media {
+      display: none;
     }
   }
 }
